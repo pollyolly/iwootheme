@@ -1,0 +1,44 @@
+/*
+ Theme Name:   Iwootheme
+ Theme URI:    
+ Description:  Iwootheme
+ Author:       John Mark
+ Author URI:   https://pollyolly.github.io/jmr/
+ Version:      1.0.0
+ License:      
+ License URI:  
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  iwootheme
+*/
+/* Bootstrap Theme */
+html {
+	font-size: 14px;
+}
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+.container {
+	max-width: 960px;
+}
+.pricing-header {
+	max-width: 700px;
+}
+.card-deck .card {
+        min-width: 220px;
+}
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+/* Bootstrap Theme End */
+/* HOME */
+ul.products .columns-3 li{
+	display:inline-block;
+}
+/* SHOP */
+/* CART */
+/* CHECKOUT */
+/* MYACCOUNT */
+/* HOME */
+/* WooCommerce End */
